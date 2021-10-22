@@ -1,6 +1,18 @@
 # cpplibphp
 A single header C++ library containing useful functions based on those from the PHP standard library.
 
+How To Use
+--------
+#include "php.hpp"
+
+// optional
+using namespace php;
+
+This has no dependencies, however it does require at least a C++11 compiler or better.
+
+Function List
+--------
+
 List of functions included - see the PHP documentation for how these work - this implimentation is faithful to the originals except where noted:
 
 std::string ltrim(const std::string &str, const std::string &whitespace = " \n\r\t\f\v")
