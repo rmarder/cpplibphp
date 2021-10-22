@@ -94,4 +94,4 @@ std::string implode(const std::string &separator, const std::vector<std::string>
 std::string implode(const std::vector<std::string> &array)
 ```
 Assemble vector array into a string using string separator between each vector element.
-
+The alternative signature is equivalent to calling implode("", array);
