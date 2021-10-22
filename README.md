@@ -10,6 +10,7 @@ using namespace php;
 ```
 
 I recommended not using the namespace as this library will collide with the global C namespace as well as the C++ std namespace in the future, if it doesn't already.
+Instead, you should make your function calls in the form "result = php::function(args);"
 
 This has no dependencies, however it does require at least a C++11 compiler or better.
 
