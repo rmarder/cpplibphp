@@ -9,7 +9,7 @@ How To Use
 using namespace php;
 ```
 
-I recommended not using the namespace as this library will likely collide with the global C namespace as well as the C++ std namespace in the future, if it doesn't already.
+I recommended not using the namespace as this library will collide with the global C namespace as well as the C++ std namespace in the future, if it doesn't already.
 
 This has no dependencies, however it does require at least a C++11 compiler or better.
 
