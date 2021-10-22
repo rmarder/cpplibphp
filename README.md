@@ -1,4 +1,4 @@
-# cpplibphp
+# cpplibphp - C++ PHP library.
 A single header C++ library containing useful functions based on those from the PHP standard library.
 
 How To Use
