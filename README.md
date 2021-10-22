@@ -6,11 +6,13 @@ How To Use
 ```
 #include "php.hpp"
 
-using namespace php;
+// using namespace php; // not recommended
+
+result = php::callfunction(withargs);
 ```
 
 I recommended not using the namespace as this library will collide with the global C namespace as well as the C++ std namespace in the future, if it doesn't already.
-Instead, you should make your function calls in the form "result = php::function(args);"
+Instead, you should make your function calls directly into the namespace every time.
 
 This has no dependencies, however it does require at least a C++11 compiler or better.
 
