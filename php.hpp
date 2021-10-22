@@ -2,7 +2,8 @@
 #define _PHP_H_
 
 /*
- * cpplibphp - A single header C++ library containing useful functions based on those from the PHP standard library.
+ * cpplibphp - C++ PHP library.
+ * A single header C++ library containing useful functions based on those from the PHP standard library.
  * https://github.com/rmarder/cpplibphp
  *
  * Copyright (C) 2021 Robert Alex Marder (ram@robertmarder.com)
