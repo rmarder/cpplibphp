@@ -2,6 +2,9 @@
 #define _PHP_H_
 
 /*
+ * cpplibphp - A single header C++ library containing useful functions based on those from the PHP standard library.
+ * https://github.com/rmarder/cpplibphp
+ *
  * Copyright (C) 2021 Robert Alex Marder (ram@robertmarder.com)
  * 
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,10 +28,6 @@
 #include <vector>
 #include <sstream>
 #include <utility>
-
-/****************************************
-* This is a library of useful functions from the PHP standard library, rewritten from scratch in C++
-*/
 
 // php constants
 // these can be set to anything as long as they are unique
