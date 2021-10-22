@@ -5,7 +5,7 @@ How To Use
 --------
 #include "php.hpp"
 
-// optional
+// optional - not recommended as future versions of this library will almost certainly collide with the global C namespace as well as the C++ std namespace.
 
 using namespace php;
 
