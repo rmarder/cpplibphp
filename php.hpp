@@ -340,7 +340,7 @@ namespace php
 
 	std::string implode(const std::vector<std::string> &array)
 	{
-		return implode(" ", array);
+		return implode("", array);
 	}
 	
 }
