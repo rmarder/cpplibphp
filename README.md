@@ -91,7 +91,10 @@ Split string str into a vector with each vector element containing length charac
 
 ```
 std::string implode(const std::string &separator, const std::vector<std::string> &array)
+
+Alternative signature:
 std::string implode(const std::vector<std::string> &array)
 ```
 Assemble vector array into a string using string separator between each vector element.
+
 The alternative signature is equivalent to calling implode("", array);
