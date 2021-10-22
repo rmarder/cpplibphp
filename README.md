@@ -58,7 +58,7 @@ String repeat.
 
 std::string str_pad(const std::string &input, size_t length, const std::string pad_str = " ", size_t pad_type = STR_PAD_RIGHT)
 
-Pad a string to length characters using string pad_str. Use STR_PAD_RIGHT, STR_PAD_LEFT, or STR_PAD_BOTH as flags.
+Pad input string to length characters using string pad_str. Use STR_PAD_RIGHT, STR_PAD_LEFT, or STR_PAD_BOTH as flags.
 
 
 std::string ucfirst(std::string str)
