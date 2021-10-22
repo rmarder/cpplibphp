@@ -20,24 +20,24 @@ List of functions included - see the PHP documentation for how these work - this
 
 ```
 std::string ltrim(const std::string &str, const std::string &whitespace = " \n\r\t\f\v")
-```
-Trim characters from the start of a string.
 
+Trim characters from the start of a string.
+```
 ```
 std::string rtrim(const std::string &str, const std::string &whitespace = " \n\r\t\f\v")
-```
-Trim characters from the end of a string.
 
+Trim characters from the end of a string.
+```
 ```
 std::string trim(const std::string &str, const std::string &whitespace = " \n\r\t\f\v")
-```
-Trim characters from the start and end of a string.
 
+Trim characters from the start and end of a string.
+```
 ```
 bool str_contains(const std::string &haystack, const std::string &needle)
-```
-Test if string haystack contains string needle.
 
+Test if string haystack contains string needle.
+```
 ```
 std::string strrev(std::string str)
 ```
