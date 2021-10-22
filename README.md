@@ -6,6 +6,7 @@ How To Use
 #include "php.hpp"
 
 // optional
+
 using namespace php;
 
 This has no dependencies, however it does require at least a C++11 compiler or better.
