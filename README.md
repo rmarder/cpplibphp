@@ -13,6 +13,8 @@ I recommended not using the namespace as this library will collide with the glob
 
 This has no dependencies, however it does require at least a C++11 compiler or better.
 
+(the library right now will compile under c++98 but the author expects c++11 to be the minimum required in the future)
+
 Function List
 --------
 
