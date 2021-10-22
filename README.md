@@ -3,11 +3,13 @@ A single header C++ library containing useful functions based on those from the 
 
 How To Use
 --------
+```
 #include "php.hpp"
 
-// optional - not recommended as future versions of this library will almost certainly collide with the global C namespace as well as the C++ std namespace.
-
 using namespace php;
+```
+
+I recommended not using the namespace as this library will likely collide with the global C namespace as well as the C++ std namespace in the future, if it doesn't already.
 
 This has no dependencies, however it does require at least a C++11 compiler or better.
 
