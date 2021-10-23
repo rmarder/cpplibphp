@@ -194,7 +194,6 @@ namespace php
 		}
 		if(pad_type == STR_PAD_BOTH)
 		{
-			std::cout << "pad both" <<std::endl;
 			size_t half = (length - input.size()) / 2;
 			std::string tmp = result;
 			result = "";
